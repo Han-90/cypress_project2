@@ -21,7 +21,7 @@ describe("Test contact us form via WebdriverUni", ()=> {
         cy.visit('https://www.webdriveruniversity.com/Contact-Us/contactus.html')
         cy.get('[name="first_name"]').type('Brad')
         cy.get('[name="last_name"]').type('Pitt')
-        cy.get('textarea.feedback-input').type('So guys whats in the f***in box?')
+        cy.get('textarea.feedback-input').type('So guys whats in the box?')
         cy.get('[type="submit"]').click()
         
     })
