@@ -18,6 +18,7 @@ describe("Test contact us form via Demo Opencart Test Store", ()=> {
     cy.xpath('//*[@id="ContactUsFrm_enquiry"]').type("Wenn Chuck Norris in das Wasser fällt wird er nicht nass, das Wasser wird Chuck Norris")
     cy.xpath('//*[@id="ContactUsFrm"]/div[2]/div[2]/button').click()
 
+    cy.get('.mb40 > :nth-child(3)').should('have.text','Your enquiry has been successfully sent to the store owner!')
     
     })
 
