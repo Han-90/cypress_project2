@@ -8,7 +8,7 @@ describe("Test contact us form via Demo Opencart Test Store", ()=> {
     
     it("Should be able to submit a succesful submission via contact us form", ( ) => {
        
-        cy.visit('https://demo.opencart.com/', { failOnStatusCode: false })
+        cy.visit('https://demo.opencart.com/')
 
         
               
